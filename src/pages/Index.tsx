@@ -31,16 +31,19 @@ const Index = () => {
       <div className="max-w-4xl mx-auto px-4 py-8">
         {/* Header */}
         <div className="flex items-center gap-4 mb-8">
-          <img src={logo} alt="Camila Panozzo" className="h-14 w-auto" />
-        </div>
-
-        <div className="text-center mb-8">
-          <h1 className="text-2xl font-bold text-foreground">
-            Calculadora de Custo Operacional
-          </h1>
-          <p className="text-sm text-muted-foreground mt-1">
-            Ajuste os parâmetros para ver o impacto estimado na sua operação
-          </p>
+          <img
+            src={logo}
+            alt="Camila Panozzo"
+            className="h-14 w-auto mix-blend-multiply"
+          />
+          <div>
+            <h1 className="text-2xl font-bold text-foreground">
+              Calculadora de Custo Operacional
+            </h1>
+            <p className="text-sm text-muted-foreground mt-1">
+              Ajuste os parâmetros para ver o impacto estimado na sua operação
+            </p>
+          </div>
         </div>
 
         {/* Sliders */}
